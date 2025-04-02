@@ -68,7 +68,7 @@ main{
 	text-align: justify;
 }
 #img_card img{
-	width: 100px;
+	max-width: 80px;
 }
 
 #btn_card3{
