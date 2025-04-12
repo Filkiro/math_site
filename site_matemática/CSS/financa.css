@@ -1,8 +1,8 @@
 .btn-voltar {
-  display: inline-flex;           /* mantém o botão na linha */
-  align-items: center;           /* alinha verticalmente */
-  justify-content: center;       /* alinha horizontalmente */
-  gap: 6px;                      /* espaçamento entre ícone e texto */
+  display: inline-flex;        
+  align-items: center;       
+  justify-content: center;  
+  gap: 6px;                    
   padding: 8px 16px;
   border: 2px solid #2B54D2;
   border-radius: 20px;
@@ -12,7 +12,7 @@
   background-color: transparent;
   transition: background 0.3s, color 0.3s;
   font-size: 16px;
-  line-height: 1;                /* isso resolve espaçamentos inesperados */
+  line-height: 1;                
 }
 
 .btn-voltar:hover {
@@ -23,21 +23,21 @@
 .btn-voltar svg {
   width: 20px;
   height: 20px;
-  fill: currentColor;            /* ícone segue a cor do texto */
-  vertical-align: middle;        /* crucial pro alinhamento com o texto */
+  fill: currentColor;   
+  vertical-align: middle;    
 }
 nav a {
   display: inline-flex;
-  align-items: center;       /* garante alinhamento vertical */
+  align-items: center;     
   justify-content: center;
-  vertical-align: middle;    /* força alinhamento na linha */
+  vertical-align: middle;   
   padding: 8px 16px;
   border: 2px solid #2B54D2;
   border-radius: 20px;
   font-weight: bold;
   color: #06184b;
   text-decoration: none;
-  margin: 4px;                /* se quiser espaçamento entre os botões */
+  margin: 4px;         
   font-size: 16px;
   line-height: 1;
   background-color: transparent;
@@ -62,7 +62,7 @@ h2{
 	text-align: center;
 	font-size: 2rem;
 	margin: 40px 0 20px 0;
-	color: #2B54D2; /* cor da identidade visual */
+	color: #2B54D2; 
 	text-align: center;
 }
 .title{
@@ -142,4 +142,28 @@ details[open] summary{
 
 details[open] summary::before {
   transform: rotate(90deg);
+}
+.conteudo.ger{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#empimg{  
+  width: max(350px) !important;
+}
+#empimg2{  
+  width: max(440px) !important;
+}
+.conteudo.ger {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lado2 {
+  grid-column: span 2;
 }
