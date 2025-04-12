@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Credify</title>
+	<link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/financa.css">
+</head>
+
+<body>
+	<header>
+		<img src="../IMG/logo2.png" alt="" id="logo">
+		<nav>
+            <a href="index.html" class="btn-voltar"> 
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000000"><path d="m313-440 224 224-57 56-320-320 320-320 57 56-224 224h487v80H313Z"/></svg>
+             Voltar</a>
+			<a href="emp.html">Empréstimo</a>
+			<a href="financa.html">Financiamento</a>
+		</nav>
+	</header>
+
+	<main>
+        <h1>Amortização</h1>
+
+        <p>A amortização significa a redução do valor de uma dívida, até pagá-la completamente. Porém, se falarmos em dívidas grandes, como empréstimos ou financiamentos de carros e imóveis, a amortização também ganha outro sentido.</p> 
+        <p>Nesses casos, a amortização de um empréstimo ou financiamento também pode significar antecipar as parcelas para pagar o débito mais rápido. Quanto mais parcelas forem antecipadas, maiores os descontos na dívida total.</p>
+        
+        <h2>Como funciona a Amortização?</h2>
+        
+            <p>O objetivo da amortização é basicamente pagar a dívida ou diminuir o tempo do empréstimo ou do financiamento. Na prática, antecipa-se o pagamento das parcelas, geralmente as parcelas finais, pois assim os juros também podem ser reduzidos em alguns casos.</p>
+
+            <p>Para entender melhor, um financiamento ou empréstimo é composto de quatro partes:</p>
+            <ul>
+                <li><b>Valor Principal:</b> valor que a pessoa pegou emprestado, junto com os custos operacionais.</li>
+                <li><b>Taxa de Juros:</b> forma de remuneração do banco ou instituição financeira.</li>
+                <li><b>Saldo Devedor:</b> valor total do empréstimo, já acrescido de juros.</li>
+                <li><b>Prestações do Saldo Devedor:</b> valores pagos mensalmente.</li>
+            </ul>
+
+            <p>Na amortização, adiantam-se as prestações do saldo devedor. Então, automaticamente, além da redução do tempo do empréstimo, a pessoa também pode ter a taxa de juros reduzida, dependendo da instituição financeira.</p>
+
+            <h2>Tipos de Amortização</h2>
+            <p class="title">Tabela SAC (Sistema de Amortização Constante):</p>
+            <p>No pagamento com base na tabela SAC, o valor das parcelas é o mesmo durante a vigência do contrato. No entanto, a taxa de juros pode variar, pois a tabela é pósfixada.</p>
+            <p>Por isso, os valores dos juros são maiores no início do pagamento, mas vão caindo nas demais parcelas até o final. Ou seja, na tabela SAC, o valor das parcelas vai diminuindo com o tempo, pois os juros mais altos são pagos no início.</p>
+
+            <details>
+                <summary>Exemplo de cálculo de amortização SAC</summary>
+                <p>Imagine o financiamento de um imóvel de R$100.000 em 60 parcelas mensais, com taxa de juros de 10% ao ano.</p>
+                <p>Pela tabela SAC, o valor da amortização é constante ao longo do período de pagamento. No nosso exemplo, o valor da amortização será de:</p>
+
+                <p><b>Valor das parcelas = R$100.000 / 60</b></p>
+                <p><b>Valor das parcelas = R$1.666,67</b></p>
+                <br>
+
+                <p>O valor dos juros, por outro lado, é calculado com base no saldo devedor. Na primeira parcela, o saldo devedor é de R$100.000, então o valor dos juros será de:</p>
+
+                <p><b>Juros mensais = saldo devedor anterior x (taxa de juros anual / 12)</b></p>
+                <p><b>Juros mensais = 100.000 x (10% / 12)</b></p>
+                <p><b>Juros mensais = 100.000 x 0,00833333</b></p>
+                <p><b>Juros mensais = R$833,33</b></p>
+
+                <p>Assim, o valor total da primeira parcela será de:</p>
+
+                <p><b>Valor da primeira parcela = valor da parcela + juros</b></p>
+                <p><b>Valor da primeira parcela = R$1.666,67 + R$833,33</b></p>
+                <p><b>Valor da primeira parcela = R$2.500,00</b></p>
+                <p>No mês seguinte, os juros serão calculados com base no saldo devedor. Se dos R$100.000 foram pagos R$2.500,00, o saldo devedor é de R$98.333,33.</p>
+            </details>
+            <br>    
+
+            <p class="title">Tabela Price (Sistema Francês de Amortização)</p>
+            <p>Na amortização com base na tabela Price, normalmente os juros são pré-fixados.</p>
+            <p>Basicamente, isso significa que até o fim do empréstimo ou financiamento o valor das parcelas será igual do início ao fim do contrato. </p>
+
+            <details>
+                <summary>Exemplo prático de amortização Price</summary>
+
+                <p>Usando o mesmo exemplo anterior, imagine o financiamento de um imóvel de R$100.000 em 60 parcelas mensais, com taxa de juros de 10% ao ano.</p>
+                <p>Como na amortização Price, o valor das parcelas e da taxa de juros será igual até o fim do financiamento, teremos:</p>
+
+                <p><b>Valor de cada parcela = valor da parcela + juros</b></p>
+                <p><b>Valor de cada parcela = R$1.666,67 + R$833,33</b></p>
+                <p><b>Valor de cada parcela = R$2.500,00</b></p>
+
+            </details>
+            <p><b>Observação:</b> os dois exemplos de amortização não levam em conta outras taxas que podem estar envolvidas no financiamento e/ou empréstimo</p>
+
+            <h2>Então, qual é o melhor sistema de amortização?</h2>
+            <p>Resumindo as diferenças entre os dois tipos de amortização, temos:</p>
+            
+            <ul>
+                <li><b>Amortização SAC:</b> parcelas maiores no início do contrato e menores até o final.</li>
+                <li><b>Amortização Price:</b> parcelas iguais durante toda a vigência do contrato</li>   
+            </ul>
+            <p>A tabela SAC costuma ser a opção mais usada nos empréstimos e financiamentos de longo prazo. Afinal, como são muitos anos pagando, pode ser melhor "apertar os cintos" no início para depois "afrouxá-los". Por isso, esse tipo de amortização exige um sacrifício maior no início.</p>
+            <p>Em contrapartida, a tabela Price costuma ser a opção usada em empréstimos menores, tanto no valor emprestado quanto no tempo de pagamento, pois o valor das parcelas não se altera.</p>
+            <p>Uma dica é se informar junto ao banco ou instituição as opções de sistemas de amortização disponíveis e quais são os descontos concedidos, caso haja a antecipação das parcelas ao longo dos anos.</p>
+           
+	</main>
+
+	<footer>
+		<p>Esse trabalho pertence a Milton, Filipe, Kaio, João M., Arthur e Gustavo.</p>
+        <p>2°AI, Etecamp 2025</p>
+	</footer>
+	
+	<script src="../JS/script.js"></script>
+</body>
+</html>
