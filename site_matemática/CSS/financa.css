@@ -1,0 +1,169 @@
+.btn-voltar {
+  display: inline-flex;        
+  align-items: center;       
+  justify-content: center;  
+  gap: 6px;                    
+  padding: 8px 16px;
+  border: 2px solid #2B54D2;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #2B54D2;
+  text-decoration: none;
+  background-color: transparent;
+  transition: background 0.3s, color 0.3s;
+  font-size: 16px;
+  line-height: 1;                
+}
+
+.btn-voltar:hover {
+  background-color: #2B54D2;
+  color: white;
+}
+
+.btn-voltar svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;   
+  vertical-align: middle;    
+}
+nav a {
+  display: inline-flex;
+  align-items: center;     
+  justify-content: center;
+  vertical-align: middle;   
+  padding: 8px 16px;
+  border: 2px solid #2B54D2;
+  border-radius: 20px;
+  font-weight: bold;
+  color: #06184b;
+  text-decoration: none;
+  margin: 4px;         
+  font-size: 16px;
+  line-height: 1;
+  background-color: transparent;
+  transition: background 0.3s, color 0.3s;
+  height: 20px;
+}
+
+nav a:hover {
+  background-color: #2B54D2;
+  color: white;
+}
+
+nav a svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    vertical-align: middle;
+}  
+
+
+h2{
+	text-align: center;
+	font-size: 2rem;
+	margin: 40px 0 20px 0;
+	color: #2B54D2; 
+	text-align: center;
+}
+.title{
+    text-align: start !important;
+    margin: 0 !important;
+    font-size: 1.2em;
+}
+.card{
+    height: 580px !important;
+}
+.card .title{
+    margin: 10px !important;
+    font-size: 18px;
+}
+.card p{
+    margin: 0;
+}
+.container{
+    align-items: stretch;
+}
+.card.Alt{
+    width: 450px !important;
+    height: auto !important;
+    align-self: stretch;
+}
+.card.Alt .title{
+    margin: 15px 0px !important;
+    font-size: 24px;
+}
+#img_card img{
+    width: 50px !important;
+}
+
+summary{
+    background-color: #f5f5f5;
+    padding: 10px;  
+    color: #06184b;
+    width: fit-content;
+    border: #2B54D2 2px solid;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #06184b70;
+    transition: 0.4s;
+    cursor: pointer;
+}
+summary:hover{
+    box-shadow: 1px 0px 20px 3px #06184b70;
+    transition: 0.4s;
+}
+details p{
+    margin: 15px 30px;
+}
+
+details {
+    width: fit-content;
+    transition: all 0.3s ease;
+  }
+  
+details summary {
+  list-style: none;
+  position: relative;
+  padding-left: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+details summary::before {
+  content: '▶';
+  position: absolute;
+  left: 5px;
+  transition: transform 0.3s ease;
+  font-size: 14px;
+}
+details[open] summary{
+  box-shadow: 1px 0px 20px 3px #06184b70;
+  transition: 0.4s;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+.conteudo.ger{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#empimg{  
+  width: max(350px) !important;
+}
+#empimg2{  
+  width: max(440px) !important;
+}
+.conteudo.ger {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lado2 {
+  grid-column: span 2;
+}
